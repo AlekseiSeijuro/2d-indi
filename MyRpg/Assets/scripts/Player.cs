@@ -8,15 +8,13 @@ public class Player : MonoBehaviour
     private float horizontal;
     private float vertical;
     private float moveLimiter = 0.7f;
-
-    public float runSpeed = 20.0f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float runSpeed = 7.0f;
+    
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -31,9 +29,8 @@ public class Player : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-        if (horizontal != 0 && vertical != 0) // Check for diagonal movement
+        if (horizontal != 0 && vertical != 0)
         {
-            // limit movement speed diagonally, so you move at 70% speed
             horizontal *= moveLimiter;
             vertical *= moveLimiter;
         } 
