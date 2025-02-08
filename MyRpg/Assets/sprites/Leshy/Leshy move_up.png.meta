@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 4b9c319b84ca1144aa6333e12d1bfe0a
+guid: 890ed8e184c9b1647864584b38e437f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7741928633910496934
-    second: Leshy move_left_0
+      213: 4902940232950442204
+    second: Leshy move_up_0
   - first:
-      213: -9038418421305748834
-    second: Leshy move_left_1
+      213: -7468654690916523044
+    second: Leshy move_up_1
   - first:
-      213: 3860287880831855960
-    second: Leshy move_left_2
+      213: 8076850143157334906
+    second: Leshy move_up_2
   - first:
-      213: -4869995329371553785
-    second: Leshy move_left_3
+      213: 862375517893645835
+    second: Leshy move_up_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +55,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,32 +122,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Leshy move_left_0
+      name: Leshy move_up_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 15
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a51f65b0de42f8490800000000000000
-      internalID: -7741928633910496934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Leshy move_left_1
-      rect:
-        serializedVersion: 2
-        x: 17
         y: 0
         width: 14
         height: 28
@@ -159,19 +137,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9259ba5556119280800000000000000
-      internalID: -9038418421305748834
+      spriteID: cd86bfb3a2eba0440800000000000000
+      internalID: 4902940232950442204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leshy move_left_2
+      name: Leshy move_up_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3add511220a5890800000000000000
+      internalID: -7468654690916523044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leshy move_up_2
       rect:
         serializedVersion: 2
         x: 31
         y: 0
-        width: 16
+        width: 15
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,19 +181,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85d6abbff5f729530800000000000000
-      internalID: 3860287880831855960
+      spriteID: a73b4f6896cb61070800000000000000
+      internalID: 8076850143157334906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leshy move_left_3
+      name: Leshy move_up_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 47
         y: 0
-        width: 13
+        width: 14
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7004ffedc0d4a6cb0800000000000000
-      internalID: -4869995329371553785
+      spriteID: b065b07e6f5c7fb00800000000000000
+      internalID: 862375517893645835
       vertices: []
       indices: 
       edges: []
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Leshy move_left_0: -7741928633910496934
-      Leshy move_left_1: -9038418421305748834
-      Leshy move_left_2: 3860287880831855960
-      Leshy move_left_3: -4869995329371553785
+      Leshy move_up_0: 4902940232950442204
+      Leshy move_up_1: -7468654690916523044
+      Leshy move_up_2: 8076850143157334906
+      Leshy move_up_3: 862375517893645835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,6 +4,7 @@ public class Player : MonoBehaviour
 {
 
     private Rigidbody2D body;
+    private Animator anim;
 
     private float horizontal;
     private float vertical;
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -28,6 +30,9 @@ public class Player : MonoBehaviour
     void move(){
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
+        
+        anim.SetFloat("moveX", horizontal);
+        anim.SetFloat("moveY", vertical);
 
         if (horizontal != 0 && vertical != 0)
         {
