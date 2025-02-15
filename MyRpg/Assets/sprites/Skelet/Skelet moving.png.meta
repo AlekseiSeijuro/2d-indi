@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4bd01cd8ea07084449a1e43bd220db35
+guid: 13bde60f4a2ac5547b048a2389cc4759
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -26,6 +26,30 @@ TextureImporter:
   - first:
       213: 9109192971437111848
     second: Skelet moving_7
+  - first:
+      213: 1147676125723464660
+    second: Skelet moving_8
+  - first:
+      213: 7038899614806918525
+    second: Skelet moving_9
+  - first:
+      213: 8959065637112068875
+    second: Skelet moving_10
+  - first:
+      213: 2523212126069528286
+    second: Skelet moving_11
+  - first:
+      213: -1312509541905302369
+    second: Skelet moving_12
+  - first:
+      213: 7013889362266586307
+    second: Skelet moving_13
+  - first:
+      213: 2854522793998118914
+    second: Skelet moving_14
+  - first:
+      213: 2658858479643367291
+    second: Skelet moving_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,11 +162,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 20
+        y: 60
         width: 19
-        height: 20
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,15 +180,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skelet moving_4
+      name: Skelet moving_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 40
         width: 19
-        height: 20
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,15 +202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skelet moving_1
+      name: Skelet moving_2
       rect:
         serializedVersion: 2
         x: 19
-        y: 20
+        y: 60
         width: 19
-        height: 19
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,15 +224,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skelet moving_2
+      name: Skelet moving_3
       rect:
         serializedVersion: 2
-        x: 38
-        y: 20
+        x: 19
+        y: 40
         width: 19
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,15 +246,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skelet moving_6
+      name: Skelet moving_4
       rect:
         serializedVersion: 2
         x: 38
-        y: 0
+        y: 60
         width: 19
-        height: 20
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,15 +268,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skelet moving_3
+      name: Skelet moving_5
       rect:
         serializedVersion: 2
-        x: 57
-        y: 20
+        x: 38
+        y: 40
         width: 19
-        height: 19
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,15 +290,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skelet moving_5
+      name: Skelet moving_6
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
+        x: 57
+        y: 60
         width: 19
-        height: 19
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,11 +316,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 57
-        y: 0
+        y: 40
         width: 19
-        height: 19
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,11 +333,187 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Skelet moving_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 20
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d391fe0b5d5def00800000000000000
+      internalID: 1147676125723464660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75433ee7e13fa160800000000000000
+      internalID: 7038899614806918525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b3973dabef45c70800000000000000
+      internalID: 8959065637112068875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed615536f00440320800000000000000
+      internalID: 2523212126069528286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 20
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c7c6e868709cde0800000000000000
+      internalID: -1312509541905302369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc7acbb637565160800000000000000
+      internalID: 7013889362266586307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20073837b5d4d9720800000000000000
+      internalID: 2854522793998118914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b779d2333b926e420800000000000000
+      internalID: 2658858479643367291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: adc2a2243b8737c45a12dea802ef82f8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -324,13 +524,21 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Skelet moving_0: 6710037887114470573
-      Skelet moving_1: 8578094059640710391
-      Skelet moving_2: 5002874362489650242
-      Skelet moving_3: 7467301575324950342
-      Skelet moving_4: 4505017246325166678
-      Skelet moving_5: 6782796239104139940
-      Skelet moving_6: -2522517582169675174
+      Skelet moving_1: 4505017246325166678
+      Skelet moving_10: 8959065637112068875
+      Skelet moving_11: 2523212126069528286
+      Skelet moving_12: -1312509541905302369
+      Skelet moving_13: 7013889362266586307
+      Skelet moving_14: 2854522793998118914
+      Skelet moving_15: 2658858479643367291
+      Skelet moving_2: 8578094059640710391
+      Skelet moving_3: 5002874362489650242
+      Skelet moving_4: -2522517582169675174
+      Skelet moving_5: 7467301575324950342
+      Skelet moving_6: 6782796239104139940
       Skelet moving_7: 9109192971437111848
+      Skelet moving_8: 1147676125723464660
+      Skelet moving_9: 7038899614806918525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

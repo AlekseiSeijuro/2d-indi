@@ -1,47 +1,84 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Skelet : MonoBehaviour
 {
+    public GameObject bulletPrefab;
+
     private Rigidbody2D body;
     private Animator anim;
+    private GameObject player;
 
-    private float horizontal = 0;
-    private float vertical = 1;
     private float moveLimiter = 0.7f;
-    public float runSpeed = 3.0f;
-    private int stepsCount = 0;
-    public int stepsForRotate = 100;
+    private float runSpeed = 3.0f;
+
+    private float shotCullDown = 2.0f;
+    private float shotTimer;
+    private List<GameObject> bullets;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        player = GameObject.Find("Player");
+        shotTimer = shotCullDown;
+        bullets = new List<GameObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        move();
+        hauntPlayer();
+        shot();
     }
 
-    public void move()
+    public void hauntPlayer()
     {
-        if (stepsCount >= stepsForRotate)
-        {
-            vertical = -vertical;
-            stepsCount = 0;
-        }
-        stepsCount++;
+        float difX = player.transform.position.x - transform.position.x;
+        float difY = player.transform.position.y - transform.position.y;
+
+        float horizontal = Mathf.Sign(difX);
+        float vertical = Mathf.Sign(difY);
 
         anim.SetFloat("moveX", horizontal);
         anim.SetFloat("moveY", vertical);
 
-        if (horizontal != 0 && vertical != 0)
+        if ((Mathf.Abs(difX) < 0.1) && (Mathf.Abs(difY) < 0.1))
         {
-            horizontal *= moveLimiter;
-            vertical *= moveLimiter;
+            anim.SetFloat("moveX", 0);
+            anim.SetFloat("moveY", 0);
+            body.linearVelocity = new Vector2(0, 0);
         }
+        else if (Mathf.Abs(difX) < 0.1)
+        {
+            anim.SetFloat("moveX", 0);
+            body.linearVelocity = new Vector2(0, vertical * runSpeed);
+        }
+        else if (Mathf.Abs(difY) < 0.1)
+        {
+            anim.SetFloat("moveY", 0);
+            body.linearVelocity = new Vector2(horizontal * runSpeed, 0);
+        }
+        else
+        {
 
-        body.linearVelocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+            if (horizontal != 0 && vertical != 0)
+            {
+                horizontal *= moveLimiter;
+                vertical *= moveLimiter;
+            }
+
+            body.linearVelocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+        }
+    }
+
+    public void shot()
+    {
+        shotTimer -= Time.deltaTime;
+        if (shotTimer <= 0)
+        {
+            shotTimer = shotCullDown;
+            bullets.Add(Instantiate(bulletPrefab, transform));
+        }
     }
 }
