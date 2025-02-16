@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     private float horizontal;
     private float vertical;
     private float moveLimiter = 0.7f;
-    public float runSpeed = 7.0f;
+    private float runSpeed = 7.0f;
     
     void Start()
     {
