@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 13bde60f4a2ac5547b048a2389cc4759
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6710037887114470573
+    second: Skelet moving_0
+  - first:
+      213: 4505017246325166678
+    second: Skelet moving_1
+  - first:
+      213: 8578094059640710391
+    second: Skelet moving_2
+  - first:
+      213: 5002874362489650242
+    second: Skelet moving_3
+  - first:
+      213: -2522517582169675174
+    second: Skelet moving_4
+  - first:
+      213: 7467301575324950342
+    second: Skelet moving_5
+  - first:
+      213: 6782796239104139940
+    second: Skelet moving_6
+  - first:
+      213: 9109192971437111848
+    second: Skelet moving_7
+  - first:
+      213: 1147676125723464660
+    second: Skelet moving_8
+  - first:
+      213: 7038899614806918525
+    second: Skelet moving_9
+  - first:
+      213: 8959065637112068875
+    second: Skelet moving_10
+  - first:
+      213: 2523212126069528286
+    second: Skelet moving_11
+  - first:
+      213: -1312509541905302369
+    second: Skelet moving_12
+  - first:
+      213: 7013889362266586307
+    second: Skelet moving_13
+  - first:
+      213: 2854522793998118914
+    second: Skelet moving_14
+  - first:
+      213: 2658858479643367291
+    second: Skelet moving_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skelet moving_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4eed238e7de1d50800000000000000
+      internalID: 6710037887114470573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65258322159058e30800000000000000
+      internalID: 4505017246325166678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 60
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4e5ca39138b0770800000000000000
+      internalID: 8578094059640710391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 40
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cba10f9b7cd6540800000000000000
+      internalID: 5002874362489650242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 60
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a6917bf973efcd0800000000000000
+      internalID: -2522517582169675174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f55f3283f21a760800000000000000
+      internalID: 7467301575324950342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 60
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a268af1e35512e50800000000000000
+      internalID: 6782796239104139940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 40
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a7ef4beba5a6e70800000000000000
+      internalID: 9109192971437111848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 20
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d391fe0b5d5def00800000000000000
+      internalID: 1147676125723464660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75433ee7e13fa160800000000000000
+      internalID: 7038899614806918525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b3973dabef45c70800000000000000
+      internalID: 8959065637112068875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed615536f00440320800000000000000
+      internalID: 2523212126069528286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 20
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c7c6e868709cde0800000000000000
+      internalID: -1312509541905302369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc7acbb637565160800000000000000
+      internalID: 7013889362266586307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20073837b5d4d9720800000000000000
+      internalID: 2854522793998118914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelet moving_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b779d2333b926e420800000000000000
+      internalID: 2658858479643367291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skelet moving_0: 6710037887114470573
+      Skelet moving_1: 4505017246325166678
+      Skelet moving_10: 8959065637112068875
+      Skelet moving_11: 2523212126069528286
+      Skelet moving_12: -1312509541905302369
+      Skelet moving_13: 7013889362266586307
+      Skelet moving_14: 2854522793998118914
+      Skelet moving_15: 2658858479643367291
+      Skelet moving_2: 8578094059640710391
+      Skelet moving_3: 5002874362489650242
+      Skelet moving_4: -2522517582169675174
+      Skelet moving_5: 7467301575324950342
+      Skelet moving_6: 6782796239104139940
+      Skelet moving_7: 9109192971437111848
+      Skelet moving_8: 1147676125723464660
+      Skelet moving_9: 7038899614806918525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
