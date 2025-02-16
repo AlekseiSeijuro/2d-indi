@@ -43,4 +43,9 @@ public class Player : MonoBehaviour
         body.linearVelocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        print("Collision detected");
+    }
+
 }
