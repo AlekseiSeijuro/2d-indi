@@ -12,6 +12,10 @@ public class Player : MonoBehaviour
     private float moveLimiter = 0.7f;
     private float runSpeed = 7.0f;
 
+    private float attackDamage = 1;
+    private float attackActiveTime = 1;
+    private float attackActiveTimer = 0;
+
     private int health = 3;
 
     void Start()
@@ -25,7 +29,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-
+        attack();
     }
 
     void FixedUpdate()
@@ -69,5 +73,39 @@ public class Player : MonoBehaviour
     public int getHealth()
     {
         return health;
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+
+        switch (collider.tag)
+        {
+            case "Monster":
+                collider.gameObject.GetComponent<Skelet>().takeDamage(attackDamage);
+                break;
+
+            default:
+                break;
+        }
+
+    }
+
+    private void attack()
+    {
+        BoxCollider2D attackCollider = this.gameObject.GetComponent<BoxCollider2D>();
+
+        if (Input.GetMouseButtonDown(0) && !attackCollider.enabled)
+        {
+            attackActiveTimer = attackActiveTime;
+            attackCollider.enabled = true;
+        }
+        else if(attackCollider.enabled && (attackActiveTimer<=0))
+        {
+            attackCollider.enabled = false;
+        }
+        else if (attackActiveTimer > 0)
+        {
+            attackActiveTimer -= Time.deltaTime;
+        }
     }
 }

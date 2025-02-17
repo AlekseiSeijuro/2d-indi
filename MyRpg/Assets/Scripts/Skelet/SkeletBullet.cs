@@ -31,16 +31,15 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        GameObject collidedObject = collider.gameObject;
 
-        switch (collidedObject.name)
+        switch (collider.tag)
         {
             case "Player":
                 player.takeDamage(damage);
                 Destroy(this.gameObject);
                 break;
 
-            case "Skelet":
+            case "Monster":
                 break;
 
             default:

@@ -15,6 +15,7 @@ public class Skelet : MonoBehaviour
     private float shotCullDown = 2.0f;
     private float shotTimer;
     private List<GameObject> bullets;
+    private float health = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -80,5 +81,24 @@ public class Skelet : MonoBehaviour
             shotTimer = shotCullDown;
             bullets.Add(Instantiate(bulletPrefab, transform));
         }
+    }
+
+    public void takeDamage(float damage)
+    {
+        health -= damage;
+        if(health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public void takeHeal(float heal)
+    {
+        health -= heal;
+    }
+
+    public float getHealth()
+    {
+        return health;
     }
 }
