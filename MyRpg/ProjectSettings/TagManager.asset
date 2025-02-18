@@ -51,5 +51,8 @@ TagManager:
   - name: Heroes Layer
     uniqueID: 2609437629
     locked: 0
+  - name: UI
+    uniqueID: 2139652343
+    locked: 0
   m_RenderingLayers:
   - Default

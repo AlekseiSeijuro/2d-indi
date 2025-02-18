@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     private Animator anim;
     private GameObject hpHud;
 
+    public GameObject attackPrefab;
+
     private float horizontal;
     private float vertical;
     private float moveLimiter = 0.7f;
@@ -15,6 +17,9 @@ public class Player : MonoBehaviour
     private float attackDamage = 1;
     private float attackActiveTime = 1;
     private float attackActiveTimer = 0;
+    private float attackRange = 1;
+
+    private GameObject attackLocation;
 
     private int health = 3;
 
@@ -75,37 +80,33 @@ public class Player : MonoBehaviour
         return health;
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-
-        switch (collider.tag)
-        {
-            case "Monster":
-                collider.gameObject.GetComponent<Skelet>().takeDamage(attackDamage);
-                break;
-
-            default:
-                break;
-        }
-
-    }
-
     private void attack()
     {
-        BoxCollider2D attackCollider = this.gameObject.GetComponent<BoxCollider2D>();
-
-        if (Input.GetMouseButtonDown(0) && !attackCollider.enabled)
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition)-transform.position;
+        if (Input.GetMouseButtonDown(0) && (attackLocation==null))
         {
             attackActiveTimer = attackActiveTime;
-            attackCollider.enabled = true;
+            makeAttack(mousePos);
         }
-        else if(attackCollider.enabled && (attackActiveTimer<=0))
+        else if((attackLocation!=null) && (attackActiveTimer<=0))
         {
-            attackCollider.enabled = false;
+            Destroy(attackLocation);
+            attackLocation = null;
         }
         else if (attackActiveTimer > 0)
         {
             attackActiveTimer -= Time.deltaTime;
         }
+    }
+
+    private void makeAttack(Vector2 mouseLocation)
+    {
+        attackLocation = Instantiate(attackPrefab, transform);
+        attackLocation.GetComponent<AttackScript>().setDamage(attackDamage);
+
+        float k = Mathf.Sqrt(Mathf.Pow(mouseLocation.x, 2) + Mathf.Pow(mouseLocation.y, 2)) / attackRange; //опять коэфицент подобия, ебать его в рот
+
+        attackLocation.transform.localPosition = mouseLocation/k;
+
     }
 }
