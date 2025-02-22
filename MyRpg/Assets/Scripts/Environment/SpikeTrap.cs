@@ -6,7 +6,7 @@ public class SpikeTrap : MonoBehaviour
     private BoxCollider2D spikeCollider;
 
     private float cullDown = 5.0f;
-    private float activeTime = 1.0f;
+    private float activeTime = 1f;
     private float timer;
     private int damage = 1;
     private bool isDamaged = false;
@@ -40,10 +40,10 @@ public class SpikeTrap : MonoBehaviour
     {
         switch (collision.tag)
         {
-            case "Player":
-                if((collision.Distance(spikeCollider).distance <= -0.3) && (!isDamaged))
+            case "PlayerFeet":
+                if(!isDamaged)
                 {
-                    collision.GetComponent<Player>().takeDamage(damage);
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().takeDamage(damage);
                     isDamaged = true;
                 }
                 break;
